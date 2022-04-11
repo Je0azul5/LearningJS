@@ -13,46 +13,39 @@ const diameter = (radio) => radio * 2;
 const perimetroCirculo = (radio) => diameter(radio) * Math.PI;
 const areaCirculo = (radio) => radio * radio * Math.PI;
 
-//----------------------------------------------------------------
-/*
+//funciones de llamada cuadrado
 
-// Cuadrado
-console.group("Grupo cuadrado");
- const ladoCuadrado = 5;
-const perimetroCuadrado = 4 * ladoCuadrado;
-const areaCuadrado = ladoCuadrado * ladoCuadrado;
-console.log(ladoCuadrado + " " + perimetroCuadrado + " " + areaCuadrado);
+function calcularPerimeterCuadrado() {
+  const input = document.getElementById("inputCuadrado");
+  const value = input.value;
 
+  window.alert(perimetroCuadrado(value));
+}
 
-//console.log( perimetroCuadrado + " " + areaCuadrado);
+function calcularAreaCuadrado() {
+  const input = document.getElementById("inputCuadrado");
+  const value = input.value;
 
-console.groupEnd();
-//Triangulo
-console.group("Grupo Triangulo");
- const ladoTriangulo = 6;
-const ladoTrianguloDos = 6;
-const base = 4;
-const altura = 5.5;
-console.log(ladoTriangulo + " " + ladoTrianguloDos + " " + base);
-const perimetroTriangulo = ladoTriangulo + ladoTrianguloDos + base;
-console.log("Perimetro" + " " + perimetroTriangulo);
-const areaTriangulo = (base * altura) / 2;
-console.log("Area" + " " + areaTriangulo); 
+  window.alert(areaCuadrado(value));
+}
+//funciones de llamada triangulo
+function calcularAreaTriangulo() {
+  const input1 = document.getElementById("inputTriangulo").value;
+  const base = document.getElementById("inputTriangulo2").value;
 
-console.groupEnd();
-//Circulo
-console.group("Grupo circulo");
+  const h = Math.sqrt(
+    (Number(base) / 2) * (Number(base) / 2) - Number(input1) * Number(input1)
+  );
 
-const radio = 4;
-const diameter = radio * 2;
-const pi = Math.PI;
+  window.alert(Number(h));
+}
 
-const permetroCirculo = diameter * pi;
-const areaCirculo = radio * radio * pi;
+function calcularPerimetroTriangulo() {
+  const input1 = document.getElementById("inputTriangulo").value;
+  const input2 = document.getElementById("inputTriangulo1").value;
+  const base = document.getElementById("inputTriangulo2").value;
 
-console.log(
-  radio + " " + diameter + " " + pi + " " + permetroCirculo + " " + areaCirculo
-); 
-
-console.groupEnd();
- */
+  window.alert(
+    perimetroTriangulo(Number(input1), Number(input2), Number(base))
+  );
+}
