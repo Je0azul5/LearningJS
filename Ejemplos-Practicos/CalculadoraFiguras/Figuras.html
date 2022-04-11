@@ -72,7 +72,21 @@
       <div class="figura">
         <section>
           <h4>Circulo</h4>
-          <div class="card">Calculo de area y perimetro</div>
+          <div class="card">
+            Calculo de area y perimetro
+            <form id="formCuadrado">
+              <label for="inputCirculo"> Escribe el radio del circulo</label>
+              <input id="inputCirculo" type="number" />
+              <div class="botones">
+                <button type="button" onclick="calcularPerimetroCirculo()">
+                  Calcular perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCirculo()">
+                  Calcular Area
+                </button>
+              </div>
+            </form>
+          </div>
         </section>
       </div>
     </div>

@@ -49,3 +49,12 @@ function calcularPerimetroTriangulo() {
     perimetroTriangulo(Number(input1), Number(input2), Number(base))
   );
 }
+
+function calcularPerimetroCirculo() {
+  const input1 = Number(document.getElementById("inputCirculo").value);
+  window.alert(perimetroCirculo(input1));
+}
+function calcularAreaCirculo() {
+  const input1 = Number(document.getElementById("inputCirculo").value);
+  window.alert(areaCirculo(input1));
+}
