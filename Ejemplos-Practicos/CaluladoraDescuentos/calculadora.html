@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calculadora.css" />
+    <title>Porcentaje y descuentos</title>
+  </head>
+  <body>
+    <nav>
+      <h4>Porcentaje y descuentos</h4>
+    </nav>
+    <div class="container">
+      <section>
+        <h2>Calcucla el precio a pagar de tus productos con descuento</h2>
+
+        <form>
+          <div class="pregunta">
+            <label for="inprice">Ingresa el valor del producto</label>
+            <input id="inprice" type="number" />
+          </div>
+          <div class="pregunta">
+            <label for="inpercentage">Ingresa el porcentaje de descuento</label>
+            <input id="inpercentage" type="number" />
+          </div>
+
+          <button type="button" onclick="calcularDescuento()">Calcular</button>
+          <div class="card">
+            <p id="pPrecio"></p>
+          </div>
+        </form>
+      </section>
+    </div>
+    <script src="calculadora.js"></script>
+  </body>
+</html>
