@@ -1,6 +1,7 @@
 # LearningJS 
 
 #Calculadora de areas y perimetros 
+https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CalculadoraFiguras/Figuras.html
 ## Creacion de vista 
 - Creacion de header
 - Centrar mediante flex
@@ -17,7 +18,8 @@
 - Definir porcentajes de margin
 
 
-#Calculadora de porcentaje, 
+#Calculadora de porcentaje,
+https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CaluladoraDescuentos/calculadora.html
 ## Creacion de vista 
 - Creacion de header
 - Centrar mediante flex
