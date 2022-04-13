@@ -1,7 +1,7 @@
 # LearningJS 
 
 #Calculadora de areas y perimetros 
-https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CalculadoraFiguras/Figuras.html
+# https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CalculadoraFiguras/Figuras.html
 ## Creacion de vista 
 - Creacion de header
 - Centrar mediante flex
@@ -19,7 +19,7 @@ https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CalculadoraFiguras/Figu
 
 
 #Calculadora de porcentaje,
-https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CaluladoraDescuentos/calculadora.html
+# https://je0azul5.github.io/LearningJS/Ejemplos-Practicos/CaluladoraDescuentos/calculadora.html
 ## Creacion de vista 
 - Creacion de header
 - Centrar mediante flex
