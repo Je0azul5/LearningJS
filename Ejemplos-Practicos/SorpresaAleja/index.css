@@ -1,8 +1,10 @@
 body {
+  
   background-image: url(./assets/SecretCard.png);
   background-repeat: no-repeat, repeat;
   background-position: inherit;
-  background-size: cover;
+  background-size: repeat;
+
 }
 nav {
   padding-top: 20pt;
