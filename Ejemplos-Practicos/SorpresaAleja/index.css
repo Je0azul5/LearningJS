@@ -1,24 +1,24 @@
 body {
-  
   background-image: url(./assets/SecretCard.png);
-  background-repeat: no-repeat, repeat;
+  background-repeat: repeat;
   background-position: inherit;
   background-size: repeat;
   width: 100%;
   height: 100%;
 }
+
 nav {
-  padding-top: 20pt;
-  margin: 1% 1% 0% 1%;
-  border-radius: 50px;
+  margin: 0% 0% 0% 0%;
   display: flex;
   justify-content: center;
-  border: 1px solid rgb(255, 255, 255);
 }
 
 section {
   display: grid;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2%;
 }
 
 .pregunta {
@@ -26,6 +26,7 @@ section {
   grid-template-columns: 50% 50%;
   margin: 4% 1% 4% 1%;
 }
+
 label {
   font-weight: bold;
 }
@@ -35,26 +36,44 @@ form {
 }
 button {
   background-color: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   border: 2px solid #f300fb;
   width: 50%;
+  padding: 2% 2% 2% 2%;
   margin: 1% 0% 1% 25%;
 }
+
 .card {
   margin: 1%;
   border: 1px solid rgb(147, 114, 255);
 }
+
 p {
-    display: flex;
+  display: flex;
   justify-content: center;
 }
-h2{
-    color: rgb(255, 0, 60);
+
+h2 {
+  color: rgb(255, 0, 60);
 }
 
-img{
+a {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10% 10% 10% 10%;
+  border: 2px solid #f300fb;
+  width: 100%;
+  margin: 10% 1% 25%;
+}
+
+img {
   width: 100%;
   height: 100%;
-  
+}
+
+section img {
+  border-radius: 1%;
+  box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.5);
 }
