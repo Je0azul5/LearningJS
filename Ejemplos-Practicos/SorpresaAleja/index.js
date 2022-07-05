@@ -30,6 +30,14 @@ function listaFrases() {
     "Si no es contigo no es con nadie",
     "La chica que me robo el corazon",
     "La chica que me robo el suspiro",
+    "Mi tesoro",
+    "La princesa de mi corzon",
+    "💚💚💚💚💚💚",
+    "NO  quiero a nadie mas",
+    "Eres la ninia de mis ojos",
+    "Amooooor, eres muy ahhhhh me encantas",
+    "sooooprersaaaaaa amor te quiero mucho",
+    "No quiero que te alejes nubnca mas amor"
   ];
   return frases[Math.floor(Math.random() * frases.length)];
 }
